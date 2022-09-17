@@ -19,8 +19,8 @@
 	qcom,vbatt-empty-mv = <3100>;
 	qcom,vbatt-empty-cold-mv = <3100>;
 	qcom,s3-entry-fifo-length = <2>;
-	qcom,s3-entry-ibat-ua = <18000>;
-	qcom,s3-exit-ibat-ua = <38000>;
+	qcom,s3-entry-ibat-ua = <22000>;
+	qcom,s3-exit-ibat-ua = <40000>;
 	qcom,qg-iterm-ma = <350>;
 	qcom,hold-soc-while-full;
 	qcom,linearize-soc;
@@ -63,6 +63,10 @@
 };
 
 &pm6150_pdphy{
-    qcom,default-sink-caps = <5000 3000>,
-                         <9000 3000>;
+	qcom,default-sink-caps = <5000 3000>,
+			 <9000 3000>;
+	mi,pd_curr_limit = <1>;
+	mi,pd_max_curr_limit = <4000000>;
+	mi,limit_pd_vbus = <1>;
+	mi,pd_vbus_max_limit = <9500000>;
 };

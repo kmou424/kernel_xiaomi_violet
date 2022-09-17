@@ -3,7 +3,7 @@ qcom,3951184_LC_M6300_ATL4000mAh_FG {
     /* 3951184_LC_M6300_ATL4000mAh_FG_averaged_MasterSlave_Apr3th2019 */
     qcom,max-voltage-uv = <4400000>;
     qcom,fg-cc-cv-threshold-uv = <4390000>;
-    qcom,fastchg-current-ma = <3000>;
+    qcom,fastchg-current-ma = <4000>;
     qcom,batt-id-kohm = <68>;
     qcom,battery-beta = <4250>;
     qcom,battery-therm-kohm = <100>;

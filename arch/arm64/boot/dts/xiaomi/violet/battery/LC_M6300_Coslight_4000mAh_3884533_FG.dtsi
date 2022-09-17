@@ -2,7 +2,7 @@ qcom,LC_M6300_Coslight_4000mAh_3884533_FG {
     /* 3884533_LC_M6300_Coslight_4000mAH_PM6150_FG_averaged_MasterSlave_Feb20th2019 */
     qcom,max-voltage-uv = <4400000>;
     qcom,fg-cc-cv-threshold-uv = <4390000>;
-    qcom,fastchg-current-ma = <3000>;
+    qcom,fastchg-current-ma = <4000>;
     qcom,batt-id-kohm = <100>;
     qcom,battery-beta = <4250>;
     qcom,battery-therm-kohm = <100>;
